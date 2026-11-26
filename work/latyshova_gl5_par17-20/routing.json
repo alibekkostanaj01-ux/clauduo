@@ -1,0 +1,1100 @@
+{
+ "chapter": "latyshova_gl5_par17-20",
+ "routes": [
+  {
+   "node_id": "latyshova.logging_complex_selection",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=0, scale=2, counterintuitive=0, cause_effect=1 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.non_filtering_muds",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; устаревшая техника книги — нюанс «как сейчас», не ролик (ТЗ); узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=1, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "latyshova.kolllektory_po_morfologii_por",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=2, invisible=2, scale=1, counterintuitive=1, cause_effect=0 (сумма 6)."
+  },
+  {
+   "node_id": "latyshova.gis_lithology_saturation_thickness",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=0, invisible=2, scale=2, counterintuitive=0, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.gis_coefficients",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.interpretation_qualitative",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.interpretation_quantitative",
+   "format": "шортс",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 2,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=2, cause_effect=0 (сумма 5)."
+  },
+  {
+   "node_id": "latyshova.production_wells_owc_goc",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=0, scale=1, counterintuitive=1, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.wellbore_diameter_clay_mud",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "T7 геометрия тела и ловушка",
+   "why": "тип трудности П: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=1, cause_effect=2 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.water_loss_filtrate_invasion",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=0, invisible=2, scale=1, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.mezhzernovye_glinistost_i_tsement",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=1, invisible=1, scale=2, counterintuitive=0, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.karbonatnye_kolllektory_poristost_i_vtorichnye_por",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=1, scale=2, counterintuitive=1, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.gruppy_geofizicheskikh_metodov",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (1/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.metody_poristosti_gam_gam_akust_neutron",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.sp_i_gm_nerastvorimyi_ostatok",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.pn_i_ocenka_produktivnosti",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.zonirovanie_soprotivleniya_i_neizmenennaya_chast",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.mud_density_overbalance",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T3 пласт с флюидами и контактами",
+   "why": "тип трудности М: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.kosvennye_priznaki_poristosti_i_glinistosti",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; устаревшая техника книги — нюанс «как сейчас», не ролик (ТЗ); узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.uslova_kachestvennogo_litologicheskogo_raza",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=1, scale=2, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.litologicheskiy_razrez_granitsy_i_tolshchiny",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=0, scale=2, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.ocenka_litologii_i_uslovnaya_colonka",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=0, scale=1, counterintuitive=1, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.faktory_lomayushchie_raspoznavanie_i_kolichestvennaya_interpretatsiya",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=1, scale=2, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.diagram_axes_curves",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.diagram_zones",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=1, invisible=1, scale=0, counterintuitive=0, cause_effect=1 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.kn_meaning",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.two_phase_zone",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.saturation_point_fast_scales",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.pn_critical_productivity",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.two_critical_types",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.critical_value_methods",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=1, scale=2, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.petrophysical_dependencies_intervals",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (1/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.thresholds_ranges_pn",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.second_kind_criterion",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.clayey_family_curves",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T7 геометрия тела и ловушка",
+   "why": "тип трудности П: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=1 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.geometric_loci_pnsp_curve",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T7 геометрия тела и ловушка",
+   "why": "тип трудности П: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=1 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.clean_vs_clayey_enough",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (0/10) — видео не оправдано; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.numeric_examples_50_50",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив; узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.productive_collector_contacts",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T7 геометрия тела и ловушка",
+   "why": "тип трудности П: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.transition_zone_water_contact_logs",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс; устаревшая техника книги — нюанс «как сейчас», не ролик (ТЗ); узел ведёт к данным: признаки → правило → вывод. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.gas_oil_contact_neutron_invasion",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=2, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 5)."
+  },
+  {
+   "node_id": "latyshova.lithology_noncollectors_microzonologs",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.drilling_on_water_and_brine",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.graphs_origin_limits",
+   "format": "текст",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (0/10) — видео не оправдано. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.inflow_zones",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.effective_thickness_single_layer_interlayers",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.pack_effective_thickness_clay_content",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=1, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.invasion_zone_resistivity_nomogram_alpha_cii",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.dense_nonclay_interlayers_equation_65",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=1, counterintuitive=0, cause_effect=1 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.example_pack_resistance_values",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.carbonate_reservoir_specifics",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=1, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.kolektor_vs_nikolektor",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.pryamye_priznaki_horoshie_usloviya",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.ushorshenie_rasvora_glinistaya_korka",
+   "format": "текст",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (1/10) — видео не оправдано. Критерии видеоёмкости: time=1, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.dinamicheskie_metody_obnaruzheniya",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=2, invisible=1, scale=0, counterintuitive=1, cause_effect=0 (сумма 4)."
+  },
+  {
+   "node_id": "latyshova.kriticheskaya_pro_emost_klassifikatsiya",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=1 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.electric_response_and_porosity",
+   "format": "текст",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (1/10) — видео не оправдано. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=1 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.saturation_assessment_difficulty",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.tablica_21_perehodnye_raznosti_i_efekty_glinistosti",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=1, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.lithologicheskie_tipi_na_diagram",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=2, scale=0, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.koeffitsient_produktivnosti_efektivnaya_tolshchina",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T4 диффузия давления / T5 смена стационарных состояний",
+   "why": "тип трудности Ф: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.harakter_nasyscheniya_pn",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=2, scale=1, counterintuitive=1, cause_effect=0 (сумма 5)."
+  },
+  {
+   "node_id": "latyshova.krivye_produktivnosti_fig69",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.normalization_concept",
+   "format": "практикум на данных",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=0, scale=1, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.normalization_scales_and_sign",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.example_section_profile",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T7 геометрия тела и ловушка",
+   "why": "тип трудности П: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=0, scale=1, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.figure77_generalized_dependencies",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности Р: ведущий формат — карточки. Критерии видеоёмкости: time=0, invisible=1, scale=0, counterintuitive=0, cause_effect=0 (сумма 1)."
+  },
+  {
+   "node_id": "latyshova.effective_thickness_determination",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 0,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных (Volve LAS)",
+   "why": "тип трудности Пр: ведущий формат — практикум на данных. Критерии видеоёмкости: time=0, invisible=0, scale=0, counterintuitive=0, cause_effect=0 (сумма 0)."
+  },
+  {
+   "node_id": "latyshova.critical_porosity_cutoff",
+   "format": "интерактив",
+   "secondary_format": "карточки",
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=1, invisible=1, scale=1, counterintuitive=0, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.petrophysical_meaning_and_advantages",
+   "format": "текст",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": null,
+   "why": "тип трудности И: ведущий формат — шортс; видеоёмкость низкая (2/10) — видео не оправдано. Критерии видеоёмкости: time=1, invisible=0, scale=1, counterintuitive=0, cause_effect=0 (сумма 2)."
+  },
+  {
+   "node_id": "latyshova.filtrate_mineralization_resistivity",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T1 прибор в стволе + планшет (одна модель состояния)",
+   "why": "тип трудности И: ведущий формат — шортс. Критерии видеоёмкости: time=1, invisible=1, scale=0, counterintuitive=1, cause_effect=0 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.grain_size_and_typical_k_n",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=1, scale=1, counterintuitive=0, cause_effect=1 (сумма 3)."
+  },
+  {
+   "node_id": "latyshova.applicability_and_reference_k_n0",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 0,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "T2 решение на данных: диапазон и цена ошибки",
+   "why": "тип трудности Н: ведущий формат — интерактив. Критерии видеоёмкости: time=0, invisible=0, scale=1, counterintuitive=0, cause_effect=0 (сумма 1)."
+  }
+ ]
+}
