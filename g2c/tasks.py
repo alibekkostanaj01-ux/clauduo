@@ -113,7 +113,10 @@ def check_task(t: TaskDraft, node: dict, misc_ids: set[str]) -> list[str]:
     return errs
 
 
-def build_tasks(ch: Chapter, workers: int = 4, per_call: int = 4) -> dict:
+def build_tasks(ch: Chapter, workers: int = 4, per_call: int = 0) -> dict:
+    from .settings import config
+
+    per_call = per_call or int(config()["llm"].get("per_call_tasks", 6))
     wd = ch.work_dir
     layer = json.loads((wd / "layer.json").read_text(encoding="utf-8"))
     nodes = {n["id"]: n for n in layer["nodes"]}

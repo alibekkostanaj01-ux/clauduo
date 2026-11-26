@@ -1,0 +1,53 @@
+# секреты
+.env
+
+# окружение
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# материалы организаторов: главы и ролики не публикуются (ТЗ)
+inputs/books_md/
+inputs/books_pdf/
+inputs/reference_videos/
+inputs/review/
+data/raw/
+data/cache/
+
+# промежуточные результаты и кэш LLM (в публичном репозитории — целиком: слой содержит цитаты из книг)
+work/
+
+# ---- ПУБЛИЧНЫЙ РЕПОЗИТОРИЙ: не публикуем материалы организаторов и тексты книг ----
+# ТЗ: «До хакатона материалы не публикуются»; главы и ролики не публикуются.
+# Эти файлы лежат у команды локально; как их разложить — README, раздел «Материалы организаторов».
+inputs/
+schemas/
+templates/
+docs/ТЗ_хакатона_Глава_курс.docx
+docs/Глава_курс_задание.html
+docs/Инструменты_для_видео.html
+docs/подача_доменов_геологии.md
+docs/разборы_4_роликов.md
+docs/портреты_зрителя.md
+docs/open_data.md
+docs/ТРЕБОВАНИЯ.md
+docs/ИНСТРУКЦИЯ.md
+docs/archive/
+# доменный пакет: заготовки организаторов и всё, что содержит текст книг
+domain/geology/styleguide.json
+domain/geology/legend.html
+domain/geology/misconceptions.json
+domain/geology/physics_checklist.json
+domain/geology/pronunciation.md
+domain/geology/glossary.json
+domain/geology/glossary.md
+domain/geology/it_bridges.md
+# производные открытых данных (лицензия Equinor) — пересоздаются из архива командой
+data/
+# журнал правок и метрики относятся к прогонам глав
+manual_edits.csv
+metrics.csv
+.claude/
+# готовые курсы коммитим отдельно, когда сдаём
+out/

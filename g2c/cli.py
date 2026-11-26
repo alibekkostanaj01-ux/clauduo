@@ -73,20 +73,28 @@ def scans(chapter: str, dpi: int = 150):
     con.print(f"Готово: {len(files)} сканов в {files[0].parent if files else '—'}")
 
 
+
+def _workers(n: int) -> int:
+    """0 — значение по умолчанию из config.yaml → llm.workers."""
+    from .settings import config
+
+    return n if n > 0 else int(config()["llm"].get("workers", 6))
+
+
 @app.command()
-def layer(chapter: str, workers: int = typer.Option(6, help="параллельных запросов к модели")):
+def layer(chapter: str, workers: int = typer.Option(0, help="параллельных запросов к модели (0 — из config.yaml → llm.workers)")):
     """Построить учебный слой главы: work/<глава>/layer.json, coverage.json, issues.json."""
     from .layer import build_layer
 
     ch = get_chapter(chapter)
     if not (ch.work_dir / "units.json").exists():
         ingest_mod.ingest(ch)
-    build_layer(ch, workers=workers)
+    build_layer(ch, workers=_workers(workers))
 
 
 @app.command()
 def glossary(chapters: list[str] = typer.Argument(None, help="главы со слоем; по умолчанию — все, у которых есть layer.json"),
-             workers: int = 6):
+             workers: int = 0):
     """Глоссарий RU/EN и ИТ-мосты доменного пакета из учебного слоя (domain/<домен>/glossary.*, it_bridges.md)."""
     from .glossary import build_glossary, build_it_bridges
 
@@ -95,7 +103,7 @@ def glossary(chapters: list[str] = typer.Argument(None, help="главы со с
     if not chs:
         con.print("[red]Нет глав с готовым слоем: сначала g2c layer <глава>[/]")
         raise typer.Exit(1)
-    con.print(build_glossary(chs, workers=workers))
+    con.print(build_glossary(chs, workers=_workers(workers)))
     con.print(f"ИТ-мостов: {build_it_bridges(chs)}")
 
 
@@ -119,11 +127,11 @@ def route(chapter: str):
 
 
 @app.command()
-def tasks(chapter: str, workers: int = 4):
+def tasks(chapter: str, workers: int = 0):
     """Задания курса из учебного слоя: work/<глава>/tasks.json (≥15, ≥4 типов, ключи проверены кодом)."""
     from .tasks import build_tasks
 
-    build_tasks(get_chapter(chapter), workers=workers)
+    build_tasks(get_chapter(chapter), workers=_workers(workers))
 
 
 @app.command()
@@ -156,7 +164,7 @@ def course(chapter: str, layer_file: Path = typer.Option(None, "--layer", help="
 def build(chapter: str,
           video: bool = typer.Option(True, help="делать ролик-шортс по лучшему видео-узлу"),
           llm_glossary: bool = typer.Option(True, help="дополнить глоссарий моделью (EN, определения)"),
-          workers: int = typer.Option(4, help="параллельных запросов к модели")):
+          workers: int = typer.Option(0, help="параллельных запросов к модели (0 — из config.yaml → llm.workers)")):
     """Собрать курс главы целиком: разбор → слой → маршрутизация → глоссарий → задания → ролик → сайт.
     Если модель недоступна (квота), шаги с моделью пропускаются с пометкой, а курс собирается из того, что есть."""
     import traceback
@@ -164,6 +172,7 @@ def build(chapter: str,
     from .llm import LLMError
 
     ch = get_chapter(chapter)
+    workers = _workers(workers)
     steps = ["Разбор главы и сканы", "Учебный слой", "Маршрутизация форматов", "Глоссарий", "Задания", "Ролик", "Сайт курса"]
     done, skipped = [], []
 

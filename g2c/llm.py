@@ -49,6 +49,17 @@ def _hash(*parts: Any) -> str:
     return h.hexdigest()[:32]
 
 
+def _reasoning() -> str:
+    """Уровень «размышлений» модели из config.yaml → llm.reasoning (пусто — не задаём)."""
+    return str(config()["llm"].get("reasoning") or "").strip().lower()
+
+
+def _rejects_param(msg: str, *words: str) -> bool:
+    """Модель/провайдер отверг параметр запроса (а не сам запрос)."""
+    m = msg.lower()
+    return any(w in m for w in words) and any(s in m for s in ("400", "invalid", "not supported", "unsupported", "unknown", "unexpected"))
+
+
 def _schema_of(schema: type[BaseModel] | dict | None) -> dict | None:
     if schema is None:
         return None
@@ -69,6 +80,7 @@ class GeminiBackend:
         # без таймаута повисший запрос ждёт бесконечно; 5 минут с запасом для длинных ответов
         timeout_ms = int(config()["llm"].get("timeout_s", 300) * 1000)
         self.client = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=timeout_ms))
+        self.no_thinking: set[str] = set()   # модели, отвергшие thinking_config
 
     def call(self, model: str, prompt: str, schema: type[BaseModel] | dict | None,
              images: list[Path], temperature: float) -> tuple[str, int, int]:
@@ -85,8 +97,19 @@ class GeminiBackend:
                 cfg["response_json_schema"] = schema
             else:
                 cfg["response_schema"] = schema
-        resp = self.client.models.generate_content(
-            model=model, contents=parts, config=types.GenerateContentConfig(**cfg))
+        level = _reasoning()
+        if level and model not in self.no_thinking:
+            cfg["thinking_config"] = types.ThinkingConfig(thinking_level=level.upper())
+        try:
+            resp = self.client.models.generate_content(
+                model=model, contents=parts, config=types.GenerateContentConfig(**cfg))
+        except Exception as e:
+            if "thinking_config" not in cfg or not _rejects_param(str(e), "thinking"):
+                raise
+            self.no_thinking.add(model)
+            cfg.pop("thinking_config")
+            resp = self.client.models.generate_content(
+                model=model, contents=parts, config=types.GenerateContentConfig(**cfg))
         um = resp.usage_metadata
         return (resp.text or "", int(getattr(um, "prompt_token_count", 0) or 0),
                 int(getattr(um, "candidates_token_count", 0) or 0))
@@ -104,6 +127,7 @@ class OpenRouterBackend:
         if not self.key:
             raise LLMError("Нет ключа API: задайте его в настройках приложения (шестерёнка)")
         self.http = httpx.Client(timeout=config()["llm"].get("timeout_s", 300))
+        self.no_reasoning: set[str] = set()   # модели, отвергшие параметр reasoning
 
     def call(self, model: str, prompt: str, schema: type[BaseModel] | dict | None,
              images: list[Path], temperature: float) -> tuple[str, int, int]:
@@ -119,8 +143,16 @@ class OpenRouterBackend:
         if schema is not None:
             body["response_format"] = {"type": "json_schema",
                                        "json_schema": {"name": "answer", "strict": False, "schema": _schema_of(schema)}}
-        r = self.http.post(self.URL, json=body, headers={"Authorization": f"Bearer {self.key}",
-                                                         "X-Title": "glava-kurs"})
+        level = _reasoning()
+        if level and model not in self.no_reasoning:
+            # размышления короче и не возвращаются в ответе — ждём только сам JSON
+            body["reasoning"] = {"effort": "low" if level == "minimal" else level, "exclude": True}
+        headers = {"Authorization": f"Bearer {self.key}", "X-Title": "glava-kurs"}
+        r = self.http.post(self.URL, json=body, headers=headers)
+        if r.status_code != 200 and "reasoning" in body and _rejects_param(f"{r.status_code} {r.text}", "reasoning", "effort"):
+            self.no_reasoning.add(model)
+            body.pop("reasoning")
+            r = self.http.post(self.URL, json=body, headers=headers)
         if r.status_code != 200:
             raise RuntimeError(f"HTTP {r.status_code}: {r.text[:500]}")
         data = r.json()

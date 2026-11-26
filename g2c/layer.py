@@ -27,7 +27,7 @@ from .layer_models import (CoverageOut, NodeFieldsOut, NodePlan, Pass1Out, Prere
 from .llm import generate
 from .mdbook import Book, find_quote_pages, load_book, norm, numbers, quote_on_page
 from .paths import DOMAIN, ROOT, Chapter, parse_pages
-from .settings import model_for
+from .settings import config, model_for
 from .validate import (Issue, check_claims, check_coverage, check_field_numbers, check_links, check_schema,
                        check_terms_order)
 
@@ -412,7 +412,8 @@ def pass_prereq(ch: Chapter, nodes: list[dict], store: ClaimStore, workers: int)
 
 
 # --- проход 4: поля -------------------------------------------------------------------
-def pass_fields(ch: Chapter, nodes: list[dict], store: ClaimStore, workers: int, per_call: int = 4) -> dict[str, dict]:
+def pass_fields(ch: Chapter, nodes: list[dict], store: ClaimStore, workers: int, per_call: int = 0) -> dict[str, dict]:
+    per_call = per_call or int(config()["llm"].get("per_call_fields", 6))
     misc = json.loads((DOMAIN / ch.domain / "misconceptions.json").read_text(encoding="utf-8"))
     ds = json.loads(_read(DOMAIN / ch.domain / "datasets.json") or "[]")
     groups = [nodes[i:i + per_call] for i in range(0, len(nodes), per_call)]
