@@ -1,0 +1,27 @@
+{
+  "chapter": "latyshova_gl5_par17-20",
+  "_comment": "ТЕСТОВЫЕ задания для проверки интерфейса курса на примере слоя организаторов (schemas/example_layer.json). Написаны вручную, в сдачу не идут.",
+  "tasks": [
+    {"id": "T01", "type": "single", "step_id": "latyshova.mixed_section_needs_quant", "claim_ids": ["latyshova.mixed_section_needs_quant#c1"],
+     "prompt": "Как выделяют коллектор в смешанном терригенно-карбонатном разрезе?",
+     "options": [{"id": "a", "text": "По виду одной кривой сопротивления", "misconception": "misc.high_res_oil"},
+                 {"id": "b", "text": "Количественной интерпретацией с привлечением геологических сведений"},
+                 {"id": "c", "text": "Только по керну"}],
+     "answer": "b", "explanation": "Автор: в смешанном разрезе коллектор выделяют лишь количественной интерпретацией с геологическими сведениями.", "kind": "recall"},
+    {"id": "T02", "type": "multiple", "step_id": "latyshova.mixed_section_needs_quant", "claim_ids": ["latyshova.mixed_section_needs_quant#c1"],
+     "prompt": "Что нужно для выделения коллектора в смешанном разрезе? Выберите все верные.",
+     "options": [{"id": "a", "text": "Количественная интерпретация"}, {"id": "b", "text": "Геологические сведения о разрезе"},
+                 {"id": "c", "text": "Одна диаграмма ГК", "misconception": "misc.gr_measures_clay"}],
+     "answer": ["a", "b"], "explanation": "Нужны оба условия: расчёт и геология разреза.", "kind": "understanding"},
+    {"id": "T03", "type": "order", "step_id": "latyshova.mixed_section_needs_quant", "claim_ids": ["latyshova.mixed_section_needs_quant#c1"],
+     "prompt": "Расставьте шаги в порядке работы интерпретатора.",
+     "options": [{"id": "a", "text": "Получить диаграммы ГИС"}, {"id": "b", "text": "Рассчитать параметры пластов"}, {"id": "c", "text": "Выделить коллекторы с учётом геологии"}],
+     "answer": ["a", "b", "c"], "explanation": "Сначала данные, потом расчёт, потом вывод.", "kind": "understanding"},
+    {"id": "T04", "type": "gap", "step_id": "latyshova.mixed_section_needs_quant", "claim_ids": ["latyshova.mixed_section_needs_quant#c1"],
+     "prompt": "В смешанном разрезе коллектор выделяют на основании {{1}} интерпретации.",
+     "answer": ["количественной"], "explanation": "Качественных признаков здесь недостаточно.", "kind": "recall"},
+    {"id": "T05", "type": "calc", "step_id": "latyshova.mixed_section_needs_quant", "claim_ids": ["latyshova.mixed_section_needs_quant#c1"],
+     "prompt": "Тест расчёта: сколько будет $2 \\cdot 0{,}25$?", "answer": 0.5, "tolerance": 0.01, "unit": "",
+     "explanation": "Проверка поля расчёта и формулы в условии.", "kind": "data"}
+  ]
+}

@@ -1,0 +1,18 @@
+[server]
+headless = true          # без вопроса про email и без автоматического открытия браузера
+address = "127.0.0.1"    # только этот компьютер: главы книг публиковать нельзя
+port = 8501
+maxUploadSize = 500      # МБ, PDF книг бывают большими
+
+[client]
+toolbarMode = "minimal"  # без кнопки Deploy: панель не публикуется
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#7FB3D5"
+backgroundColor = "#0F1419"
+secondaryBackgroundColor = "#1A2129"
+textColor = "#ECEFF4"
